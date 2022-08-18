@@ -6,13 +6,10 @@
 
 <script>
 export default {
-
- // TODO: REMOVE
-  
-  /* name: 'HelloWorld',
+  name: 'HelloWorld',
   props: {
     msg: String
-  } */
+  }
 }
 </script>
 
