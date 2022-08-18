@@ -6,3 +6,4 @@ module.exports = {
       title: 'Jacqueline Taylor & Friends',
     },
   }
+}
