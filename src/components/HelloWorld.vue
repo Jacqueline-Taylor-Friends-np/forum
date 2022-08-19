@@ -2,6 +2,8 @@
   <div>
     <h1>Hello from Jacqueline Taylor & Friends</h1>
   </div>
+
+  <div>{{sourceData}}</div>
 </template>
 
 <script>
@@ -11,6 +13,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  data() {
+    return {
+      threads: sourceData.threads
+    }
   }
 }
 </script>
